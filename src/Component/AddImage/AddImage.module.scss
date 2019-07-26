@@ -1,0 +1,38 @@
+.add_image_container {
+    width: 75%;
+    margin: 0 auto;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+  
+    .add_image_box {
+      text-align: center;
+      border: 1px solid #006699;
+      display: flex;
+  
+      input,
+      button {
+        padding: 15px;
+        border: 0;
+      
+  
+        &:focus {
+          outline: none;
+        }
+      }
+  
+      input {
+        flex: 1;
+  
+        &.has_error {
+          background: rgba(255, 82, 62, 0.1);
+        }
+      }
+  
+      button {
+        background: #006699;
+        color: whitesmoke;
+      }
+    }
+  }
+  
